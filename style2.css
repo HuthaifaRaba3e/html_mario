@@ -56,7 +56,7 @@ nav ul{
     margin: 0 auto;
 }
 nav li{
-    width: 25%;
+    width: 30%;
     display: inline-block;
     font-size: 24px;
 }
@@ -131,6 +131,7 @@ nav li a:hover{
 .images li:hover{
     position: relative;
     top: -5px;
+    width: auto;
 }
 form input:focus{
     outline: none;
@@ -198,7 +199,7 @@ p::after{
         margin-bottom: 8px;
     }
     nav{
-        top: 60px;
+        top: 50px;
     }
 }
 @media screen and (max-width: 560px){
@@ -211,6 +212,7 @@ p::after{
     }
     nav{
         top: 0;
+        padding: 1px;
     }
     header{
         position: absolute;
